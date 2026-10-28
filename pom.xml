@@ -188,7 +188,7 @@
                 </executions>
                 <configuration>
                     <nodeVersion>v24.14.0</nodeVersion>
-                    <workingDirectory>src/main/frontend</workingDirectory>
+                    <workingDirectory>${project.basedir}</workingDirectory>
                 </configuration>
             </plugin>
             <plugin>
